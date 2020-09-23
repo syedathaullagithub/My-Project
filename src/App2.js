@@ -3,9 +3,9 @@ import { useState, useEffect } from 'react';
 import Box from '@material-ui/core/Box';
 
 export default function App2() {
-    const intialName = {
+    // const intialName = {
 
-    }
+    // }
     //const arr = [];
     const [name, setName] = useState('Click');
     const [genderName, setGenderName] = useState('');
