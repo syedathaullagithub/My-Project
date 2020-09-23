@@ -6,7 +6,7 @@ export default function App2() {
     const intialName = {
 
     }
-    const arr = [];
+    //const arr = [];
     const [name, setName] = useState('Click');
     const [genderName, setGenderName] = useState('');
     const [stateName, setStateName] = useState([]);
