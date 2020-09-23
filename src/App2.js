@@ -38,25 +38,22 @@ export default function App2() {
             }
         }
         else {
-             debugger
-             if (stateName.indexOf(e.target.value) == -1) {
-                setStateName([
-                    
-                    stateName.filter((e)=>{
-return e!==e.target.value
-                    })
-                ])
-             }
-           
+            debugger
+
+
+            const items = stateName.filter(item => item !== e.target.value);
+
+            setStateName(
+
+                items
+
+            )
+
+
         }
 
     }
-    useEffect(()=>{
-        setStateName([
-           ...stateName
-           
-        ])
-    },[])
+
 
     return (
         <div>
